@@ -86,8 +86,48 @@ A generic model to visualize different datasets with ease
 
 ## 3-D Visualization
 
+### Pair-Wise Scatter Plots
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Pair_Wise_Scatter_Plot_3D.png)
+
+
+### Numeric Data Plot
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Numeric_Data_3D.png)
+
+
+### Bubble Chart
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Bubble_Chart_3D.png)
+
+
+### Scatter Plot for mixed(numeric_categorical) attributes
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Scatter_Plot_3D_Mix_1.png)
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Scatter_Plot_3D_Mix_2.png)
+
+
+### Kernel Density Plot
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Kernel_Density_Plot_3D.png)
+
+
 ## 4-D Visualization
+
+### Scatter Plot for mixed(numeric+categorical) attributes
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Scatter_Plot_4D_Mix.png)
+
+
+### Bubble Chart 
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Bubble_Plot_4D_Mix.png)
+
 
 ## 5-D Visualization
 
-## 6-D Visualization
+### Bubble Chart
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Bubble_Chart_5D_Mix.png)
+
