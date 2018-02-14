@@ -4,6 +4,9 @@ A generic model to visualize different datasets with ease
 ## 1-D Visualization
 ### Overall Stats of the Dataset
 
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/overall_stats.PNG)
+
+
 ### Histogram - all attributes
 
 ![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Hitogram_1D.png)
@@ -22,21 +25,55 @@ A generic model to visualize different datasets with ease
 ## 2-D Visualization
 
 ### Correlation Matrix - Heat Map
+*Key:* 
+
+*dataf - the dataframe that holds the entire dataset*
+
+- Plotting Correlation between different attributes
+- Correlation Matrix Heatmap  - check out potential relationships or correlations amongst the different data attributes by leveraging a pair-wise correlation matrix and depicting it as a heatmap
+- The gradients in the heatmap vary based on the strength of the correlation
 
 ![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Correlation_Matrix_HeatMap.png)
 
 
 ### Pair-Wise Scatter Plot
+*Key:*
+
+*dataf - the dataframe that holds the entire dataset*
+
+*attribute_list - the list of attributes for which you want to plot pair-wise scatter plots*
+
+- Visualizing two-dimensional data with pair-wise scatter plots
+- Pair-wise Scatter Plots - Depicting correlation amongst different attributes of the data
+- Observe patterns in two-dimensions for data attributes
 
 ![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Pair_Wise_Scatter_Plot_2D.png)
 
 
 ### Parallel Coordinates
+*Key:*
+
+*dataf - the dataframe that holds the dataset*
+
+*attribute_list - the list of attributes for which you want to plot parallel coordinates*
+
+- Points are represented as connected line segments
+- Each vertical line represents one data attribute
+- One complete set of connected line segments across all the attributes represents one data point
+- Points that tend to cluster will appear closer together
 
 ![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Parallel_Coordinates.png)
 
 
 ### Scatter Joint Plot
+*Key:*
+
+*dataf - the dataframe that holds the dataset*
+
+*attributes - the list of the two attributes for which you want to plot 'scatter plot' and 'joint plot'*
+
+- Check for patterns, relationships between the two attributes
+- See the individual distributions for the attributes
 
 ![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Scatter_Joint__Plot_2D.png)
 
