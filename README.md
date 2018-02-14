@@ -73,6 +73,17 @@ A generic model to visualize different datasets with ease
 ![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Mixed_Attributes_Density_Plot_3Classes_2D.png)
 
 
+### Box Plots
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Box_Plot_2D.png)
+
+
+### Violin Plots
+
+![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Violin_Plot_2D.png)
+
+
+
 ## 3-D Visualization
 
 ## 4-D Visualization
