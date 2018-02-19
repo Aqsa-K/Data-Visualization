@@ -3,21 +3,59 @@ A generic model to visualize different datasets with ease
 
 ## 1-D Visualization
 ### Overall Stats of the Dataset
+*Function: SubsetAttributes(dataf, attributes)*
 
+*Key:*
+
+*dataf - the dataframe that holds the dataset*
+
+*attributes - the attributes/features for which you want to print stats*
+
+- Print count, mean, std, min, quartiles, max for the attributes defined
+- Display the table
+    
 ![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/overall_stats.PNG)
 
 
 ### Histogram - all attributes
+*Function: Plot_Histograms(dataf)*
+
+*Key:*
+
+*dataf - the dataframe that holds the dataset*
+
+- Plot histograms for all attributes in the dataset
 
 ![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Hitogram_1D.png)
 
 
 ### Histogram Plot for a single(numeric) attribute
+*Funtcion: Plot_Single_Attribute_Hist_Density_Plot(dataf, attribute)*
+
+*Key:*
+
+*dataf - the dataframe that holds the dataset*
+
+*attribute - the 'numeric' attribute for which you want to plot the histogram and density plot*
+
+- Plot histogram and density plot for a single attribute
+- For numeric attribute
 
 ![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Single_Att_Histogram_1D.png)
 
 
 ### Histogram Plot for a single(categorical) attribute
+*Function: Plot_Single_Categorical_Attribute(dataf, attribute)*
+
+*Key:*
+
+*dataf - the dataframe that holds the dataset*
+
+*attribute - the 'categorical' attribute for which you want to plot the histogram and density plot*
+
+- Plot histogram and density plot for a single attribute
+- For categorical attribute
+- Visualize Categorical Data - Visualizing a discrete, categorical data attribute is slightly different and bar plots are good for this
 
 ![alt text](https://github.com/Aqsa-K/Data-Visualization/blob/master/Iris_Figures/Signle_Categorical_Histogram_1D.png)
 
@@ -25,6 +63,8 @@ A generic model to visualize different datasets with ease
 ## 2-D Visualization
 
 ### Correlation Matrix - Heat Map
+*Function: Correlation_Matrix_HeatMap(dataf)*
+
 *Key:* 
 
 *dataf - the dataframe that holds the entire dataset*
@@ -37,6 +77,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Pair-Wise Scatter Plot
+*Function: Pair_Wise_Scatter_Plot(dataf, attribute_list)*
+
 *Key:*
 
 *dataf - the dataframe that holds the entire dataset*
@@ -51,6 +93,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Parallel Coordinates
+*Function: Parallel_Coordinates(dataf, attribute_list, category_types)*
+
 *Key:*
 
 *dataf - the dataframe that holds the dataset*
@@ -66,6 +110,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Scatter Joint Plot
+*Function: Plot_Scatter_Joint(dataf, attributes)*
+
 *Key:*
 
 *dataf - the dataframe that holds the dataset*
@@ -81,6 +127,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Categorical Bar Plot - 2 Categories
+*Function: TwoD_Categorical_Bar_Plots(dataf_class1, dataf_class2, attribute, class_1_label, class_2_label)*
+
 *Key:*
 
 *dataf_class1 - dataframe with all attributes for class 1*
@@ -100,6 +148,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Categorical Bar Plot - 3 Categories
+*Function: def Categorical_Bar_Plots_3Class_2D(dataf_class1, dataf_class2, dataf_class3, attribute, class_1_label, class_2_label, class_3_label)*
+
 *Key:*
 
 *dataf_class1 - dataframe with all attributes for class 1*
