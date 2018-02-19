@@ -174,6 +174,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Histogram and Density Plots for mixed(numeric+categorical) attributes - 2 classes
+*Function: Mixed_Attributes_Hist_Density_Plot(dataf_class1, dataf_class2, attribute, class_1_label, class_2_label)*
+
 *Key:*
 
 *dataf_class1 - dataframe with all attributes for class 1*
@@ -196,6 +198,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Histogram and Density Plots for mixed(numeric+categorical) attributes - 3 classes
+*Function: Mixed_Attributes_Hist_Density_Plot_3_Classes(dataf_class1, dataf_class2, dataf_class3, attribute, class_1_label, class_2_label, class_3_label)*
+
 *Key:*
 
 *dataf_class1 - dataframe with all attributes for class 1*
@@ -222,6 +226,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Box Plots
+*Function: Box_Plots(dataf, attribute_x, attribute_y)*
+
 *Key:*
 
 *dataf - the dataframe holding the entire dataset*
@@ -238,6 +244,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Violin Plots
+*Function: Violin_Plots(dataf, attribute_x, attribute_y)*
+
 *Key:*
 
 *dataf - the dataframe holding the entire dataset*
@@ -258,6 +266,8 @@ A generic model to visualize different datasets with ease
 ## 3-D Visualization
 
 ### Pair-Wise Scatter Plots
+*Function: Pair_Wise_Scatter_Plot_3D(dataf, attribute_list, category_column)*
+
 *Key:*
 
 *dataf - dataframe that holds the entire dataset*
@@ -274,6 +284,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Numeric Data Plot
+*Funtion: Numeric_Data_3D(dataf, attribute_x, attribute_y, attribute_z)*
+
 *Key:*
 
 *dataf - the dataframe that holds the entire dataset*
@@ -291,6 +303,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Bubble Chart
+*Function: Bubble_Chart_3D(dataf, attribute_x, attribute_y, attribute_s)*
+
 *Key:*
 
 *dataf - the dataframe holding the entire dataset*
@@ -309,6 +323,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Scatter Plot for mixed(numeric_categorical) attributes
+*Function: Scatter_Plot_3D_Mix_Data(dataf, attribute_num_x, attribute_num_y, attribute_cat)*
+
 *Key:*
 
 *dataf - the dataframe that holds the entire dataset*
@@ -333,6 +349,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Kernel Density Plot
+*Function:  Kernel_Density_Plot_3D(dataf_class1, dataf_class2, attribute_x, attribute_y)*
+
 *Key:*
 
 *dataf_class1 - dataframe with all attributes for class 1*
@@ -353,6 +371,8 @@ A generic model to visualize different datasets with ease
 ## 4-D Visualization
 
 ### Scatter Plot for mixed(numeric+categorical) attributes
+*Function: Scatter_Plot_4D_Mix(dataf, attribute_x, attribute_y, attribute_z, category_column)*
+
 *Key:*
 
 *dataf - the dataframe that hlds the dataset*
@@ -373,6 +393,8 @@ A generic model to visualize different datasets with ease
 
 
 ### Bubble Chart 
+*Function: Bubble_Plot_4D_Mix(dataf, attribute_x, attribute_y, attribute_z, category_column)*
+
 *Key:*
 
 *dataf - the dataframe that hlds the dataset*
@@ -399,6 +421,8 @@ A generic model to visualize different datasets with ease
 ## 5-D Visualization
 
 ### Bubble Chart
+*Function: Bubble_Chart_5D_Mix(dataf, attribute_x, attribute_y, attribute_z, attribute_s, category_column)*
+
 *Key:*
 
 *dataf - the dataframe that hlds the dataset*
