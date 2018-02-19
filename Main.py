@@ -57,7 +57,7 @@ if __name__ == "__main__":
     VisualizeData.Plot_Scatter_Joint(dataf, ['Sepal Length', 'Petal Length'])
 
     VisualizeData.TwoD_Categorical_Bar_Plots(Setosa, Versicolour,'Category', 'Setosa', 'Versicolour')
-    VisualizeData.Categorical_Bar_Plots_3Class_2D(Setosa, Versicolour, Virginica, 'Category', 'Setosa', 'Versicolour', 'Virginica', 'Category Frequency in Each Class')
+    VisualizeData.Categorical_Bar_Plots_3Class_2D(Setosa, Versicolour, Virginica, 'Category', 'Setosa', 'Versicolour', 'Virginica')
     VisualizeData.Mixed_Attributes_Hist_Density_Plot(Setosa, Versicolour, 'Sepal Length', 'Setosa', 'Versicolour')
 
     VisualizeData.Mixed_Attributes_Hist_Density_Plot_3_Classes(Setosa, Versicolour, Virginica, 'Sepal Length', 'Setosa', 'Versicolour', 'Virginica')
