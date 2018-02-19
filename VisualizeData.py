@@ -236,8 +236,7 @@ def TwoD_Categorical_Bar_Plots(dataf_class1, dataf_class2, attribute, class_1_la
 
 
 def Categorical_Bar_Plots_3Class_2D(dataf_class1, dataf_class2, dataf_class3, attribute, class_1_label, class_2_label,
-                                    class_3_label,
-                                    graph_title):       
+                                    class_3_label):       
     # Key:
     #       dataf_class1 - dataframe with all attributes for class 1
     #       dataf_class2 - dataframe with all attributes for class 2
@@ -251,7 +250,7 @@ def Categorical_Bar_Plots_3Class_2D(dataf_class1, dataf_class2, dataf_class3, at
     #       Using subplots or facets along with Bar Plots
 
     fig = plt.figure(figsize=(16, 4))
-    title = fig.suptitle(graph_title, fontsize=14)
+    title = fig.suptitle('Category Frequency in Each Class', fontsize=14)
     fig.subplots_adjust(top=0.85, wspace=0.3)
 
     # class 1 - attribute
